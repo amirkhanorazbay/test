@@ -1,0 +1,50 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36" version="25.0.3">
+  <diagram name="Page-1" id="1Hz5cztAhsSJrlSbuQiM">
+    <mxGraphModel>
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="2" value="Processing" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="523" y="57" width="301" height="119" as="geometry" />
+        </mxCell>
+        <mxCell id="3" value="External Entities" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="239" y="18" width="181" height="188" as="geometry" />
+        </mxCell>
+        <mxCell id="4" value="Incoming Messages" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="8" y="8" width="181" height="217" as="geometry" />
+        </mxCell>
+        <mxCell id="5" value="Instagram" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="33" y="43" width="130" height="49" as="geometry" />
+        </mxCell>
+        <mxCell id="6" value="WhatsApp" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="33" y="142" width="131" height="49" as="geometry" />
+        </mxCell>
+        <mxCell id="7" value="Webhooks" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="264" y="92" width="131" height="49" as="geometry" />
+        </mxCell>
+        <mxCell id="8" value="Process Incoming Messages" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="548" y="92" width="251" height="49" as="geometry" />
+        </mxCell>
+        <mxCell id="9" value="" style="curved=1;startArrow=none;endArrow=block;exitX=1;exitY=0.49;entryX=0.16;entryY=0.01;" edge="1" parent="1" source="5" target="7">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="239" y="67" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="10" value="" style="curved=1;startArrow=none;endArrow=block;exitX=1;exitY=0.48;entryX=0.16;entryY=0.99;" edge="1" parent="1" source="6" target="7">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="239" y="166" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="11" value="Trigger" style="curved=1;startArrow=none;endArrow=block;exitX=1;exitY=0.5;entryX=0;entryY=0.5;" edge="1" parent="1" source="7" target="8">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
